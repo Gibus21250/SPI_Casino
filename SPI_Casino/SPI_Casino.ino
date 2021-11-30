@@ -7,13 +7,13 @@ boolean bouts[] = {false, false, false};  //Tableau contenant pour chaque bouton
 //RESET VARIABLES//
 //Permet de reset la partie si on appuie sur les 3 boutons pendant 3s
 boolean resetStates[] = {false, false, false, false, false, false, false, false, false, false, false}; //Initialisé à 11 false -> si les 11 sont à true, on reset (=~3s)
-int compteur = 0;   //Compteur de de boucle de temps
+int compteur = 0;               //Compteur de de boucle de temps
 
-int lastPotent;     //dernière valeur du potentiomère
+int lastPotent;                 //dernière valeur du potentiomère
 
 boolean mancheLance = false;    //Variable qui stoque si une manche est cour
 
-int nbLancee = 0;     //compte le nombre de lancé(s) effectué durant la partie
+int nbLancee = 0;               //compte le nombre de lancé(s) effectué durant la partie
 
 void setup()
 {
